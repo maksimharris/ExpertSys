@@ -1,0 +1,12 @@
+[project]
+name = "ispdn-protection-level"
+version = "0.1.0"
+description = "Educational calculator of ISPDN protection levels and compliance audit"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
